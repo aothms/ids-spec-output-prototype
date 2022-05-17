@@ -8,13 +8,13 @@
 </entity>
 ~~~
 
-[fail_non-existent_entity_name.ids](c.ids_filename)
+[fail_non-existent_entity_name.ids](fail_non-existent_entity_name.ids)
 
 ~~~lua
-#21=IfcWall('0ygfJG68L7fhTfY31eSv7O',$,$,$,$,$,$,$,$)
+#21=IfcWall('2uQQovhan3bB1poxQLMhfn',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_non-existent_entity_name.ifc](c.ifc_filename)
+[fail_non-existent_entity_name.ifc](fail_non-existent_entity_name.ifc)
 
 Expected result: fail
 
@@ -28,13 +28,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_matching.ids](c.ids_filename)
+[pass_entity_matching.ids](pass_entity_matching.ids)
 
 ~~~lua
-#21=IfcWall('1oIAy1SoXFV8qIqUQNRhiS',$,$,$,$,$,$,$,$)
+#21=IfcWall('0Gbh0t8qz6VRGiSKRrrwLf',$,$,$,$,$,$,$,$)
 ~~~
 
-[pass_entity_matching.ifc](c.ifc_filename)
+[pass_entity_matching.ifc](pass_entity_matching.ifc)
 
 Expected result: pass
 
@@ -48,13 +48,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_with_predefinedtype.ids](c.ids_filename)
+[pass_entity_with_predefinedtype.ids](pass_entity_with_predefinedtype.ids)
 
 ~~~lua
-#21=IfcWall('3b$A_Y4HzCQOTGJ7BkvSFF',$,$,$,$,$,$,$,.SOLIDWALL.)
+#21=IfcWall('0EX4$8SBPA7A0Lnqx1Xrvw',$,$,$,$,$,$,$,.SOLIDWALL.)
 ~~~
 
-[pass_entity_with_predefinedtype.ifc](c.ifc_filename)
+[pass_entity_with_predefinedtype.ifc](pass_entity_with_predefinedtype.ifc)
 
 Expected result: pass
 
@@ -68,13 +68,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[fail_entity_matching.ids](c.ids_filename)
+[fail_entity_matching.ids](fail_entity_matching.ids)
 
 ~~~lua
-#21=IfcSlab('2FOVFXFs92IecOPn1LPC_8',$,$,$,$,$,$,$,$)
+#21=IfcSlab('0eHitfrVfFqeqNrEGhNtLI',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_matching.ifc](c.ifc_filename)
+[fail_entity_matching.ifc](fail_entity_matching.ifc)
 
 Expected result: fail
 
@@ -88,13 +88,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[fail_entity_subtype.ids](c.ids_filename)
+[fail_entity_subtype.ids](fail_entity_subtype.ids)
 
 ~~~lua
-#21=IfcWallStandardCase('2RyYh1Bun8lRg5Vz350H4d',$,$,$,$,$,$,$,$)
+#21=IfcWallStandardCase('3FPmTzEo917fmYJ4Pni2iq',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_subtype.ifc](c.ifc_filename)
+[fail_entity_subtype.ifc](fail_entity_subtype.ifc)
 
 Expected result: fail
 
@@ -108,13 +108,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_case_0.ids](c.ids_filename)
+[pass_entity_case_0.ids](pass_entity_case_0.ids)
 
 ~~~lua
-#21=IfcWall('0WyaKlOVL99RijTaqtc01n',$,$,$,$,$,$,$,$)
+#21=IfcWall('3qH0QMfe5DhRuQr830Eb$5',$,$,$,$,$,$,$,$)
 ~~~
 
-[pass_entity_case_0.ifc](c.ifc_filename)
+[pass_entity_case_0.ifc](pass_entity_case_0.ifc)
 
 Expected result: pass
 
@@ -128,13 +128,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_case_1.ids](c.ids_filename)
+[pass_entity_case_1.ids](pass_entity_case_1.ids)
 
 ~~~lua
-#21=IfcWall('22$fDL_0b4Owc0cH2oJ7aR',$,$,$,$,$,$,$,.SOLIDWALL.)
+#21=IfcWall('0BTDYfB413wf675etQgd1$',$,$,$,$,$,$,$,.SOLIDWALL.)
 ~~~
 
-[pass_entity_case_1.ifc](c.ifc_filename)
+[pass_entity_case_1.ifc](pass_entity_case_1.ifc)
 
 Expected result: pass
 
@@ -148,13 +148,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[fail_entity_case_2.ids](c.ids_filename)
+[fail_entity_case_2.ids](fail_entity_case_2.ids)
 
 ~~~lua
-#21=IfcSlab('1R6mzWY7P81P52_2g_VaOd',$,$,$,$,$,$,$,$)
+#21=IfcSlab('3MIRhGw2z2R8nMvEBvuAbh',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_case_2.ifc](c.ifc_filename)
+[fail_entity_case_2.ifc](fail_entity_case_2.ifc)
 
 Expected result: fail
 
@@ -171,13 +171,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[fail_entity_predefinedtype_0.ids](c.ids_filename)
+[fail_entity_predefinedtype_0.ids](fail_entity_predefinedtype_0.ids)
 
 ~~~lua
-#21=IfcWall('1dZ07xq_1EUAEVr_KLcOuM',$,$,$,$,$,$,$,$)
+#21=IfcWall('1oG9TNQu50h81t7dIqemfQ',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_predefinedtype_0.ifc](c.ifc_filename)
+[fail_entity_predefinedtype_0.ifc](fail_entity_predefinedtype_0.ifc)
 
 Expected result: fail
 
@@ -194,13 +194,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_predefinedtype_1.ids](c.ids_filename)
+[pass_entity_predefinedtype_1.ids](pass_entity_predefinedtype_1.ids)
 
 ~~~lua
-#21=IfcWall('1OhocE5Rj5jR6fiL9oW__w',$,$,$,$,$,$,$,.SOLIDWALL.)
+#21=IfcWall('2CMYVfzbPAtxHOZqMBnEeS',$,$,$,$,$,$,$,.SOLIDWALL.)
 ~~~
 
-[pass_entity_predefinedtype_1.ifc](c.ifc_filename)
+[pass_entity_predefinedtype_1.ifc](pass_entity_predefinedtype_1.ifc)
 
 Expected result: pass
 
@@ -217,13 +217,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[fail_entity_predefinedtype_2.ids](c.ids_filename)
+[fail_entity_predefinedtype_2.ids](fail_entity_predefinedtype_2.ids)
 
 ~~~lua
-#21=IfcWall('0VVj09j$584fkF4dfIdR5l',$,$,$,$,$,$,$,.PARTITIONING.)
+#21=IfcWall('1sauVNV5v9NAex0k854XL6',$,$,$,$,$,$,$,.PARTITIONING.)
 ~~~
 
-[fail_entity_predefinedtype_2.ifc](c.ifc_filename)
+[fail_entity_predefinedtype_2.ifc](fail_entity_predefinedtype_2.ifc)
 
 Expected result: fail
 
@@ -240,13 +240,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_user-defined_type.ids](c.ids_filename)
+[pass_entity_user-defined_type.ids](pass_entity_user-defined_type.ids)
 
 ~~~lua
-#21=IfcWall('1o6I0XbGT2NBM6$UG$UDfb',$,$,$,'WALDO',$,$,$,.USERDEFINED.)
+#21=IfcWall('0$XmJWyev9R8vlmHJwH6$n',$,$,$,'WALDO',$,$,$,.USERDEFINED.)
 ~~~
 
-[pass_entity_user-defined_type.ifc](c.ifc_filename)
+[pass_entity_user-defined_type.ifc](pass_entity_user-defined_type.ifc)
 
 Expected result: pass
 
@@ -263,13 +263,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_elementtype.ids](c.ids_filename)
+[pass_entity_elementtype.ids](pass_entity_elementtype.ids)
 
 ~~~lua
-#21=IfcWallType('2fFUD2xqj2VOlWiesuxMTf',$,$,$,$,$,$,$,'WALDO',.USERDEFINED.)
+#21=IfcWallType('1LxNRQHaX4OxICCxs2tqe2',$,$,$,$,$,$,$,'WALDO',.USERDEFINED.)
 ~~~
 
-[pass_entity_elementtype.ifc](c.ifc_filename)
+[pass_entity_elementtype.ifc](pass_entity_elementtype.ifc)
 
 Expected result: pass
 
@@ -286,13 +286,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[fail_entity_no_userdefined.ids](c.ids_filename)
+[fail_entity_no_userdefined.ids](fail_entity_no_userdefined.ids)
 
 ~~~lua
-#21=IfcWall('3KTte5Ey1EkOEcTt50lXWq',$,$,$,'WALDO',$,$,$,.USERDEFINED.)
+#21=IfcWall('23Si_bNInCi8qWOXmdGSC1',$,$,$,'WALDO',$,$,$,.USERDEFINED.)
 ~~~
 
-[fail_entity_no_userdefined.ifc](c.ifc_filename)
+[fail_entity_no_userdefined.ifc](fail_entity_no_userdefined.ifc)
 
 Expected result: fail
 
@@ -309,15 +309,15 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_predefinedtype_inheritance_0.ids](c.ids_filename)
+[pass_entity_predefinedtype_inheritance_0.ids](pass_entity_predefinedtype_inheritance_0.ids)
 
 ~~~lua
-#21=IfcWall('1pLQFhGt5EHAvPOpaJrSjp',$,$,$,$,$,$,$,$)
-#23=IfcRelDefinesByType('1$0jFeL95A7hX5WUTdxXDU',$,$,$,(#21),#22)
-#22=IfcWallType('1cmkBO7BT0$RMWEpfm3m2r',$,$,$,$,$,$,$,'X',.USERDEFINED.)
+#21=IfcWall('0tPssAvvvBH8DFNru0lho2',$,$,$,$,$,$,$,$)
+#23=IfcRelDefinesByType('0hDtVGWHD7OR76ybfgY3iT',$,$,$,(#21),#22)
+#22=IfcWallType('0XcYqjFNvDAuSJhqGKBBeV',$,$,$,$,$,$,$,'X',.USERDEFINED.)
 ~~~
 
-[pass_entity_predefinedtype_inheritance_0.ifc](c.ifc_filename)
+[pass_entity_predefinedtype_inheritance_0.ifc](pass_entity_predefinedtype_inheritance_0.ifc)
 
 Expected result: pass
 
@@ -334,15 +334,15 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_predefinedtype_inheritance_1.ids](c.ids_filename)
+[pass_entity_predefinedtype_inheritance_1.ids](pass_entity_predefinedtype_inheritance_1.ids)
 
 ~~~lua
-#21=IfcWall('1sTeQ2W4r7dwGLqO0xS1y2',$,$,$,'X',$,$,$,.USERDEFINED.)
-#23=IfcRelDefinesByType('0wBw4L0zTBggCorO5Ll692',$,$,$,(#21),#22)
-#22=IfcWallType('14r_IfOC51KfSOdd7_wYwn',$,$,$,$,$,$,$,$,.NOTDEFINED.)
+#21=IfcWall('1WeLhPLHL3DxOO4A2vFbiG',$,$,$,'X',$,$,$,.USERDEFINED.)
+#23=IfcRelDefinesByType('0EJtgFA8n1BhnnuLUoN2u7',$,$,$,(#21),#22)
+#22=IfcWallType('2EF3ruS05DARkfL87dA$T$',$,$,$,$,$,$,$,$,.NOTDEFINED.)
 ~~~
 
-[pass_entity_predefinedtype_inheritance_1.ifc](c.ifc_filename)
+[pass_entity_predefinedtype_inheritance_1.ifc](pass_entity_predefinedtype_inheritance_1.ifc)
 
 Expected result: pass
 
@@ -359,13 +359,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_enumeration_0.ids](c.ids_filename)
+[pass_entity_enumeration_0.ids](pass_entity_enumeration_0.ids)
 
 ~~~lua
-#21=IfcWall('3VSAN7SLXAV8iep0MkUu5y',$,$,$,$,$,$,$,$)
+#21=IfcWall('2g2Kx_b6v6qONlgiS2rQ3n',$,$,$,$,$,$,$,$)
 ~~~
 
-[pass_entity_enumeration_0.ifc](c.ifc_filename)
+[pass_entity_enumeration_0.ifc](pass_entity_enumeration_0.ifc)
 
 Expected result: pass
 
@@ -382,13 +382,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[pass_entity_enumeration_1.ids](c.ids_filename)
+[pass_entity_enumeration_1.ids](pass_entity_enumeration_1.ids)
 
 ~~~lua
-#21=IfcSlab('07pRkpVX14xupCxP4M2UAu',$,$,$,$,$,$,$,$)
+#21=IfcSlab('0eZem_Cb538hBFyKciQs4v',$,$,$,$,$,$,$,$)
 ~~~
 
-[pass_entity_enumeration_1.ifc](c.ifc_filename)
+[pass_entity_enumeration_1.ifc](pass_entity_enumeration_1.ifc)
 
 Expected result: pass
 
@@ -405,13 +405,13 @@ Expected result: pass
 </entity>
 ~~~
 
-[fail_entity_enumeration_2.ids](c.ids_filename)
+[fail_entity_enumeration_2.ids](fail_entity_enumeration_2.ids)
 
 ~~~lua
-#21=IfcBeam('3MZB8oUMf0aB5_Yt_qgaxI',$,$,$,$,$,$,$,$)
+#21=IfcBeam('2Rry_D_gn2YvK3cw9A$lts',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_enumeration_2.ifc](c.ifc_filename)
+[fail_entity_enumeration_2.ifc](fail_entity_enumeration_2.ifc)
 
 Expected result: fail
 
@@ -427,13 +427,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[fail_entity_pattern_0.ids](c.ids_filename)
+[fail_entity_pattern_0.ids](fail_entity_pattern_0.ids)
 
 ~~~lua
-#21=IfcWall('1JFC97UZv4AeY4Gf9w$OAg',$,$,$,$,$,$,$,$)
+#21=IfcWall('0RvYRGIQ98_ftIKp46Y2uA',$,$,$,$,$,$,$,$)
 ~~~
 
-[fail_entity_pattern_0.ifc](c.ifc_filename)
+[fail_entity_pattern_0.ifc](fail_entity_pattern_0.ifc)
 
 Expected result: fail
 
@@ -449,13 +449,13 @@ Expected result: fail
 </entity>
 ~~~
 
-[pass_entity_pattern_1.ids](c.ids_filename)
+[pass_entity_pattern_1.ids](pass_entity_pattern_1.ids)
 
 ~~~lua
-#21=IfcWallType('2CsgrfQOL7wObJibTUcLXm',$,$,$,$,$,$,$,$,.ELEMENTEDWALL.)
+#21=IfcWallType('3aX2NlvpT5zOXwUkDY0r_o',$,$,$,$,$,$,$,$,.ELEMENTEDWALL.)
 ~~~
 
-[pass_entity_pattern_1.ifc](c.ifc_filename)
+[pass_entity_pattern_1.ifc](pass_entity_pattern_1.ifc)
 
 Expected result: pass
 
